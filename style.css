@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dotted red;  */
+}
+.container{
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    padding: 20px 0px 5px 0px;
+    display: flex;
+    align-items: center;
+
+}
+.header img{
+    width: 75px;
+    position: absolute;
+
+}
+.header h1{
+    margin-left: 75px;
+    font-weight: normal;
+}
+.header span{
+    color: rgb(11, 98, 156);
+}
+h2{
+    height: 40px;
+    background: linear-gradient(rgb(11, 98, 156), rgb(115, 143, 161), rgb(11, 98, 156));
+    color: white;
+    padding: 10px 0px 0px 20px;
+    font-weight: normal;
+} 
+.main{
+    width: 900px;
+    display: flex;
+    background: linear-gradient(to top, rgb(255, 255, 255), rgb(250, 248, 248)); 
+}
+.side-bar{
+    width: 200px;
+    margin-top: 20px;
+    padding-right: 5px;
+    margin-left: 10px;
+}
+.side-bar h4 span{
+    color: red;
+}
+.side-bar p{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0 15px;
+}
+.side-bar p span{
+    color: rgb(11, 98, 156);
+}
+button{
+    width: 190px;
+    margin-left: 5px;
+    padding: 5px 0 5px;
+    color: white;
+    background-color: rgb(11, 98, 156);
+    border-radius: 5px 5px;
+}
+#resources-button{
+    background-color: rgb(255, 153, 0);
+    margin-top: 3px;
+    margin-bottom: 25px;
+    
+}
+.dojo-ad{
+    position: relative;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px solid rgb(173, 172, 172);
+    
+}
+#ad-background{
+    position: absolute;
+    width: 205px;
+    left: 0;
+    top: 25px;
+}
+#ad-content{
+    z-index: 100;
+    position: absolute;
+    color: white;
+}
+#ninja{
+    width: 90px;
+}
+.dojo-ad h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#learn-button {
+    margin-top: 10px;
+    background-color: rgb(12, 215, 241);
+    width: 170px;
+    font-size: 15px;
+}
+.main-content{
+    margin-left: 25px;
+    padding-right: 10px;
+}
+.main-content span{
+    color: rgb(19, 166, 214);
+}
+.info-bar{
+    height: 60px;
+    width: 650px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 2px solid rgb(173, 172, 172);
+
+}
+#home{
+    width: 20px;
+    margin: 10px 5px 0 0;
+}
+#phone{
+    width: 35px;
+    margin: 8px 0 0 400px;
+}
+#dns{
+    color: rgb(11, 98, 156);
+    font-size: 15px;
+    padding-top: 12px;
+}
+.contact-numbers{
+    display: flexbox;
+    align-content: center;
+    margin-left: 10px;
+}
+.contact-numbers p{
+    font-size: 10px;  
+}
+.contact-numbers span{
+    color: rgb(12, 198, 245);
+    font-size: 22px;
+    font-weight: 600;
+}
+.body{
+    font-size: 13px;
+    margin: 10px 0 20px 0;
+}
+
+#client-server{
+    width: 230px;
+    margin: 20px 0 10px 220px;
+}
+li{
+    margin: 5px 0 5px 40px;
+}
+h3{
+    color: rgb(11, 98, 156);
+    font-size: 17px;
+    margin: 10px 0;
+}
+.closing{
+    
+    border-top: 5px solid rgb(0, 89, 255);
+    border-right: 5px solid rgb(0, 89, 255);
+    border-left: 5px solid rgb(0, 89, 255);
+}
+#web-dev{
+    width: 110px;
+    margin: 10px;
+}
+.big-3{
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+}
+.big-3 p{
+    font-size: 13px;
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(19, 166, 214);
+}
